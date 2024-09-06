@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Main page</title>
+  </head>
+
+  <body>
+   <div class="box__content">
+    <header class="header center">
+      <div class="header__left">
+        <a href="index.html" class="logo"
+          ><img src="img/Logo.svg" alt="Logo icon"
+        /></a>
+        <img src="img/Search.svg" alt="Search icon" />
+      </div>
+      <div class="header__right">
+        <div class="burger_menu_and_account">
+          <label for="burger"><img src="img/Burger_menu.svg" alt="" /></label
+          ><input id="burger" type="checkbox" />
+
+          <div class="burger__content">
+            <div class="burger__title">MENU</div>
+            <details open class="burger__item">
+              <summary class="burger__head">MAN</summary>
+              <div class="burger__link-box">
+                <a href="#" class="filter__link">Accessories</a>
+                <a href="#" class="filter__link">Bags</a>
+                <a href="#" class="filter__link">Denim</a>
+                <a href="#" class="filter__link">T-Shirts</a>
+              </div>
+            </details>
+            <details open class="burger__item">
+              <summary class="burger__head">WOMAN</summary>
+              <div class="burger__link-box">
+                <a href="#" class="filter__link">Accessories</a>
+                <a href="#" class="filter__link">Jackets & Coats</a>
+                <a href="#" class="filter__link">Polos</a>
+                <a href="#" class="filter__link">T-Shirts</a>
+                <a href="#" class="filter__link">Shirts</a>
+              </div>
+            </details>
+            <details open class="burger__item">
+              <summary class="burger__head">KIDS</summary>
+              <div class="burger__link-box">
+                <a href="#" class="filter__link">Accessories</a>
+                <a href="#" class="filter__link">Jackets & Coats</a>
+                <a href="#" class="filter__link">Polos</a>
+                <a href="#" class="filter__link">T-Shirts</a>
+                <a href="#" class="filter__link">Shirts</a>
+                <a href="#" class="filter__link">Bags</a>
+              </div>
+            </details>
+          </div>
+          <a href="#"><img class ="account_icon_style" src="img/Account.svg" alt="account_icon" /></a>
+        </div>
+
+        <div class="cart_icon_style">
+          <div class="items_in_cart_general">
+            <div class="items_in_cart">
+              <img src="img/Ellipse 2.svg" alt="" />
+              <p class="items_in_cart_number">5</p>
+            </div>
+          </div>
+          <div class="cart_block">
+            <a href="#"><img src="img/Cart.svg" alt="cart_icon" /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="index_slider">
+      <img class="index_slider_img" src="img_index/Banner_img.png" alt="slider_image" />
+      <div class="index_slider_main">
+        <img src="img/Rectangle.svg" alt="rectangle_img" />
+        <div class="index_text_part">
+          <span class="index_slider_title">THE BRAND</span>
+
+          <div class="index_slider_title_second_line">
+            <p class="index_slider_title_second_part">OF LUXERIOUS<span class="index_slider_title_colored">FASHION</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="index_categories">
+      <div class="index_category_women">
+        <img
+          class="category_image"
+          src="img/Group 36.png"
+          alt="category_women_image"
+        />
+        <div class="index_categories_description">
+          <span class="index_categories_title">30% OFF </span>
+          <span class="index_categories_subtitle">FOR WOMEN</span>
+        </div>
+      </div>
+
+      <div class="index_category_men">
+        <img 
+        class="category_image" 
+        src="img/Group 37.jpg" 
+        alt="category_men_image" 
+        />
+        <div class="index_categories_description">
+          <span class="index_categories_title">HOT DEAL </span>
+          <span class="index_categories_subtitle">FOR MEN</span>
+        </div>
+      </div>
+
+      <div class="index_category_kids">
+        <img 
+        class="category_image" 
+        src="img/Group 38.jpg" 
+        alt="category_kids_image" 
+        />
+        <div class="index_categories_description">
+          <span class="index_categories_title">NEW ARRIVALS </span>
+          <span class="index_categories_subtitle">FOR KIDS</span>
+        </div>
+      </div>
+
+      <div class="index_category index_category_large">
+        <img 
+        class="category_image_large"
+        src="img/Group 39.jpg" 
+        alt="category_accessories_image" 
+        />
+        <div class="index_categories_description">
+          <span class="index_categories_title">LUXURIOUS & TRENDY </span>
+          <span class="index_categories_subtitle">ACCESSORIES</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="index_cards_header">
+      <span class="index_cards_title">Featured Items</span>
+      <span class="index_cards_description">
+        Shop for items based on what we featured in this week
+      </span>
+    </div>
+
+    <div class="product-box center">
+      <!-- Здесь блок добавлен через JS 
+       Cмотри файл product_data.js и index.js-->
+    </div>
+
+    <div class="index_button_position">
+      <div class="index_bottom_button">
+        <button class="index_button">Browse All Product</button>
+      </div>
+    </div>
+
+    <div class="info_bar">
+      <div class="info_bar_block">
+        <a href="#"
+          ><img
+            class="info_picture"
+            src="img_conditions/img_crown.svg"
+            alt="delivery_image"
+        /></a>
+        <h3 class="info_bar_title">Free Delivery</h3>
+        <p class="info_bar_txt">
+          Worldwide delivery on all. Authorit tively morph next-generation innov
+          tion with extensive models.
+        </p>
+      </div>
+
+      <div class="info_bar_block">
+        <a href="#">
+          <img
+            class="info_picture"
+            src="img_conditions/img_delivery.svg"
+            alt="sales_image"
+        /></a>
+        <h3 class="info_bar_title">Sales & discounts</h3>
+        <p class="info_bar_txt">
+          Worldwide delivery on all. Authorit tively morph next-generation innov
+          tion with extensive models.
+        </p>
+      </div>
+
+      <div class="info_bar_block">
+        <a href="#"
+          ><img
+            class="info_picture"
+            src="img_conditions/img_sales.svg"
+            alt="crown_image"
+        /></a>
+        <h3 class="info_bar_title">Quality assurance</h3>
+        <p class="info_bar_txt">
+          Worldwide delivery on all. Authorit tively morph next-generation innov
+          tion with extensive models.
+        </p>
+      </div>
+    </div>
+    <div class="subscibe_bar">
+      <img
+        class="subscribe_bar_background_picture"
+        src="img_subscribe_bar/img_background.png"
+        alt="background_picture"
+      />
+
+      <div class="subscribe_bar_content">
+        <div class="feedback_block">
+          <img
+            width="96px"
+            src="img_subscribe_bar/girl_photo.png"
+            alt="client's_photo"
+          />
+          <p class="feedback_text">
+            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+            <i>a pulvinar purus condimentum“</i>
+          </p>
+        </div>
+
+        <div class="subscribe_block">
+          <div class="subscribe_title_and_text">
+            <p class="subscribe_title">SUBSCRIBE</p>
+            <p class="subscribe_text">FOR OUR NEWSLETTER AND PROMOTION</p>
+          </div>
+          <div class="subscribe_form_and_button">
+            <form class="subscribe_form" action="#">
+              <input
+                class="subscribe_input"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </form>
+            <button class="subscribe_button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright_bar center">
+      <div class="copyright_bar_left">
+        <p class="copyright_text">© 2023 Brand All Rights Reserved.</p>
+      </div>
+
+      <div class="copyright_bar_right">
+        <a href="#" class="copyright_link"
+          ><img src="img_social/6.svg" alt="pinterest_logo"
+        /></a>
+        <a href="#" class="copyright_link">
+          <img src="img_social/2.svg" alt="twitter_logo" />
+        </a>
+      </div>
+    </div>
+   </div>
+  </div>
+  <script src="product_data.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
